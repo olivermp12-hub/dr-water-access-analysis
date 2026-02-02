@@ -10,6 +10,18 @@ The analysis compares **basic drinking water access** with **safely managed drin
 
 ---
 
+## Project Components
+
+This repository includes two primary analysis areas:
+
+-**Drinking Water Access**: Analysis of basic and safely managed drinking water services. 
+
+-**Sanitation Access**: Analysis of access to at least basic sanitation services over time.
+
+Each section contains raw data, cleaned outputs, visualizations, and documentation.
+
+---
+
 ## Key Questions
 - How has basic drinking water access changed in the Dominican Republic since 2000?
 - How does safely managed drinking water access compare to basic access?
