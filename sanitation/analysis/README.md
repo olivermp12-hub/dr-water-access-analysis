@@ -1,20 +1,19 @@
-# Basic Sanitation Access in the Dominican Republic (2000–2024)
+# Sanitation Analysis
 
-## Overview
-This analysis examines long-term trends in access to basic sanitation services in the Dominican Republic using data from the World Bank World Development Indicators, sourced from the WHO/UNICEF Joint Monitoring Programme (JMP).
+This folder contains analysis outputs based on sanitation access data for the Dominican Republic.
 
-## Indicator
-- **People using at least basic sanitation services (% of population)**
-- Indicator code: SH.STA.BASS.ZS
+## Contents
 
-## Key Findings
-- Access to basic sanitation services increased steadily from 2000 to 2024.
-- Year-over-year gains indicate gradual but consistent progress in sanitation coverage.
-- Despite improvements, universal access has not yet been achieved, highlighting ongoing infrastructure and service delivery needs.
+- **DR_Sanitation_Basic_Analysis.pdf**  
+  Summary of trends in access to basic sanitation services, including tables and visualizations.
+
+## Methodology
+
+- Raw data was imported into Google Sheets.
+- Data was filtered to include only national-level observations.
+- Percentages were visualized to show long-term trends.
+- Key values were summarized to support interpretation.
 
 ## Tools Used
-- Google Sheets (data cleaning, calculations, visualization)
 
-## Data Source
-- World Bank World Development Indicators
-- WHO/UNICEF Joint Monitoring Programme (JMP)
+- Google Sheets
