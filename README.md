@@ -1,60 +1,38 @@
 # dr-water-access-analysis
-Analysis of basic and safely managed drinking water access in the Dominican Republic using World Bank and WHO/UNICEF JMP data
 
-# Water Access in the Dominican Republic (2000–2024)
+Analysis of drinking water and sanitation access in the Dominican Republic using publicly available World Bank and WHO/UNICEF JMP data.
 
 ## Project Overview
-This project analyzes long-term trends in access to drinking water in the Dominican Republic using publicly available data from the WHO/UNICEF Joint Monitoring Programme (JMP), accessed via the World Bank World Development Indicators.
 
-The analysis compares **basic drinking water access** with **safely managed drinking water access** to highlight gaps between availability and water quality over time.
+This project analyzes long-term trends in access to drinking water and sanitation services in the Dominican Republic between 2000 and 2024. It uses indicators from the WHO/UNICEF Joint Monitoring Programme (JMP), accessed via the World Bank World Development Indicators.
 
----
+The goal is to examine progress over time, identify gaps between different levels of service, and provide a data-driven foundation for understanding infrastructure and public health challenges.
 
 ## Project Components
 
-This repository includes two primary analysis areas:
+This repository is organized into two main analytical sections:
 
--**Drinking Water Access**: Analysis of basic and safely managed drinking water services. 
+- **Water Access (`/water`)**  
+  Analysis of basic and safely managed drinking water access over time.
 
--**Sanitation Access**: Analysis of access to at least basic sanitation services over time.
+- **Sanitation Access (`/sanitation`)**  
+  Analysis of access to at least basic sanitation services over time.
 
-Each section contains raw data, cleaned outputs, visualizations, and documentation.
-
----
+Each section contains raw data, analysis outputs, and documentation explaining the methodology and findings.
 
 ## Key Questions
-- How has basic drinking water access changed in the Dominican Republic since 2000?
+
+- How has access to basic drinking water changed in the Dominican Republic since 2000?
 - How does safely managed drinking water access compare to basic access?
-- What does the gap between these indicators suggest about water quality and infrastructure?
+- How has access to basic sanitation evolved over time?
+- What do these trends suggest about infrastructure development and service quality?
 
----
+## Data Sources
 
-## Data Source
-- World Bank World Development Indicators (WDI)
+- World Bank – World Development Indicators  
 - WHO/UNICEF Joint Monitoring Programme (JMP)
 
-Indicators used:
-- Basic drinking water access (% of population)
-- Safely managed drinking water access (% of population)
-
----
-
-## Methods
-- Filtered country-level time series data for the Dominican Republic (2000–2024)
-- Created a clean analytical dataset using Google Sheets
-- Calculated year-over-year changes and the gap between basic and safely managed access
-- Visualized trends using line charts to support interpretation
-
----
-
-## Key Findings
-- Basic drinking water access increased steadily and approached universal coverage by 2024
-- Safely managed drinking water access remained significantly lower throughout the period
-- The gap between basic and safely managed access persisted and slightly widened, indicating ongoing challenges related to water quality, reliability, and treatment
-
----
-
 ## Tools Used
-- Google Sheets
 
----
+- Google Sheets (data cleaning and visualization)
+- GitHub (version control and documentation)
